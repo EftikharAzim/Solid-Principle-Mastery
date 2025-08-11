@@ -408,11 +408,11 @@ FodyWeavers.xsd
 
 # VS Code files for those working on multiple tools
 .vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-!.vscode/*.code-snippets
+# !.vscode/settings.json
+# !.vscode/tasks.json
+# !.vscode/launch.json
+# !.vscode/extensions.json
+# !.vscode/*.code-snippets
 
 # Local History for Visual Studio Code
 .history/
@@ -426,3 +426,31 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# macOS system files
+.DS_Store
+
+# Ignore all bin/ and obj/ folders recursively (for .NET projects)
+**/bin/
+**/obj/
+
+# Ignore user secrets and local settings
+secrets.json
+appsettings.Development.json
+appsettings.Local.json
+
+# Ignore Rider IDE files
+.idea/
+.Rider*
+
+# Ignore test result folders
+TestResults/
+**/TestResults/
+
+# Ignore workspace-specific folders
+/.tmp/
+/.cache/
+node_modules/
+dist/
+out/
+.config
