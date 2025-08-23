@@ -1,7 +1,8 @@
 # 🎯 Order Processing System
 
-> **Dependency Inversion Principle** demonstration with e-commerce order processing
-> An e-commerce system stores order data in a SQL database. Later, there may be a need to switch to a NoSQL database or another storage method for scalability. The high-level order processing logic should remain unaffected by these changes.
+### **Dependency Inversion Principle** demonstration with e-commerce order processing
+
+An e-commerce system stores order data in a SQL database. Later, there may be a need to switch to a NoSQL database or another storage method for scalability. The high-level order processing logic should remain unaffected by these changes.
 
 ## 🚀 **Quick Start**
 
